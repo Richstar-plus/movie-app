@@ -4,7 +4,7 @@ import { Header } from "../components/Header";
 export function RootLayout() {
   // const navigation = useNavigation();
   return (
-    <div>
+    <div className="hero">
       <Header />
         <main>
           <Outlet />
