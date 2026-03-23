@@ -9,8 +9,8 @@ export function Header() {
       </div>
       <div className="links">
         <NavLink to="/">Home</NavLink>
-        <NavLink to="/movies">Series</NavLink>
-        <NavLink to="/about">Movies</NavLink>
+        <NavLink to="/series">Series</NavLink>
+        <NavLink to="/movies">Movies</NavLink>
       </div>
       <div className="sign-btn">
         <button>Sign In</button>

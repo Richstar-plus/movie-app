@@ -33,7 +33,7 @@ body {
 
 header {
   background-color: rgba(0, 0, 0, 0.322);
-  padding: 0 150px;
+  padding: 0 130px;
   position: fixed;
   right: 0;
   left: 0;
@@ -53,6 +53,29 @@ justify-content: center;
 
 header .logo img {
   width: 150%;
+}
+
+header .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+}
+
+header .links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.2s ease;
+
+}
+
+header .links a:hover {
+  color: rgb(245, 93, 93);
+}
+
+header .links a.active {
+  color: rgb(245, 93, 93);
 }
 
 header .sign-btn button {
